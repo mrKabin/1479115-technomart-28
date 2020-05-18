@@ -1,7 +1,7 @@
 ﻿# Личный проект «Техномарт»
 
 * Студент: [Vladimir Kabin](https://up.htmlacademy.ru/htmlcss/28/user/1479115).
-* Наставник: Константин Соколов.
+* Наставник: [Константин Соколов](https://htmlacademy.ru/profile/costigans).
 
 ---
 
