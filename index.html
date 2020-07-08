@@ -306,9 +306,9 @@
           <h2 class="about-company-title">Контакты</h2>
           <p class="about-company-text">Вы можете забрать товар сами,<br>
             заехав в наш офис:</p>
-          <a href="#" class="company-contacts-map"><img src="img/map.png"
+          <a href="#" class="company-contacts-map map-link"><img src="img/map.png"
               alt="г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="300" height="158"></a>
-          <a class="button company-contacts-button" href="#">Заблудились? Напишите нам!</a>
+          <a class="button company-contacts-button write-us" href="#">Заблудились? Напишите нам!</a>
         </section>
       </div>
     </div>
@@ -360,11 +360,51 @@
     </div>
   </footer>
 
-  <section class="map-popup">
-    <h2 class="visually-hidden">Карта проезда</h2>
-    <!-- здесь булет попап карта-->
-    <button type="button"><span class="visually-hidden">Закрыть</span></button>
+  <section class="popup form-popup">
+    <h2 class="visually-hidden">Отправить письмо</h2>
+    <form class="write-us-form" action="https://echo.htmlacademy.ru/" method="POST">
+      <p>
+        <label for="username">Ваше имя</label>
+        <input class="write-us-username" type="text" name="username" id="username" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="email">Ваш e-mail</label>
+        <input class="write-us-email" type="email" name="e-mail" id="email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="message">Текст письма</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="В свободной форме"></textarea>
+      </p>
+      <div class="popup-background">
+        <button class="button" type="submit">Отправить</button>
+      </div>
+      <button class="button-close" type="button" aria-label="закрыть"></button>
+    </form>
   </section>
+
+  <section class="popup map-popup">
+    <h2 class="visually-hidden">Карта проезда</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.1114313816124!2d30.32104969405794!3d59.93882447257307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sae!4v1591713948061!5m2!1sru!2sae"
+      width="943" height="449" allowfullscreen
+      title="адрес магазина: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></iframe>
+    <img src="img/map-popup.png" width="943" height="449"
+      alt="адрес магазина: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+    <button class="button-close map-close" type="button" aria-label="закрыть"></button>
+  </section>
+
+  <section class="popup popup-basket">
+    <h3>Товар добавлен в корзину!</h3>
+
+    <div class="popup-buttons">      
+        <button class="button" href="#">Оформить заказ</button>        
+        <button class="button continue-shopping" href="#">продолжить покупки</button>      
+    </div>
+    <button class="button-close basket-close" type="button" aria-label="закрыть"></button>
+  </section>
+
+  <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
