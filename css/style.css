@@ -1033,14 +1033,6 @@ body {
 	justify-content: flex-start;
 }
 
-.services-buttons::after {
-	background-image: url(../img/services-slider-shadow.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	right: 0;
-	top: -42px;
-}
-
 .services-slide {
 	height: 100%;
 	min-height: 283px;
@@ -1120,7 +1112,7 @@ body {
 }
 
 .services-buttons::after {
-	background-image: url(../img/servises-buttons-shade.png);
+	background-image: url(../img/services-slider-shadow.png);
 	background-position: 0 0;
 	content: "";
 	height: 279px;
@@ -1153,7 +1145,7 @@ body {
 
 .company-info {
 	box-sizing: border-box;
-	padding-right: 60px;
+	padding-right: 50px;
 	width: 500px;
 }
 
@@ -1167,9 +1159,10 @@ body {
 }
 
 .about-company-text {
+	font-family: "PT Sans", "Tahoma", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
-	margin: 0;
+	margin: 0;	
 }
 
 .company-info .about-company-text:first-of-type {
