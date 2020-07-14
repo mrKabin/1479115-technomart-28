@@ -2,7 +2,7 @@
 
 * Студент: [Vladimir Kabin](https://up.htmlacademy.ru/htmlcss/28/user/1479115).
 * Наставник: [Константин Соколов](https://htmlacademy.ru/profile/costigans).
-* Web-pagina del proecto (https://mrkabin.github.io/1479115-technomart-28/).
+* [Web-pagina del proecto] (https://mrkabin.github.io/1479115-technomart-28/).
 
 ---
 
